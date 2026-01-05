@@ -1,0 +1,15 @@
+cat <<EOF > .gitignore
+
+#Python
+__pycache__/
+*.pyc
+
+#venv
+.venv/
+
+#OS
+.DS_Store
+
+#logs
+*.log
+EOF
